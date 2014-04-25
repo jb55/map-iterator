@@ -5,7 +5,7 @@
   mapping over generator functions only. Allows you to lazily compose
   generators.
 
-  [Other useful functions](https://github.com/jb55/generator)
+  [Other useful functions](https://github.com/jb55/generators)
 
   [![Build Status](https://travis-ci.org/jb55/map-generator.png)](https://travis-ci.org/jb55/map-generator)
 
