@@ -1,7 +1,7 @@
 
 # lazy-map-generator
 
-  Like [map-generator](https://github.com/jb55/lazy-map-generator), but for
+  Like [map-generator](https://github.com/jb55/map-generator), but for
   mapping over generator functions only. Allows you to lazily compose
   generators.
 
