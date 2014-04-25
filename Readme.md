@@ -1,9 +1,7 @@
 
 # map-generator
 
-  Like [map-generator](https://github.com/jb55/map-generator), but for
-  mapping over generator functions only. Allows you to lazily compose
-  generators.
+  Transform yielded generator values by applying a function to each one.
 
   [Other useful functions](https://github.com/jb55/generators)
 
