@@ -1,0 +1,24 @@
+{
+  "name": "lazy-map-generator",
+  "description": "lazily map over generators",
+  "keywords": [
+    "lazy",
+    "map",
+    "generator"
+  ],
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/jb55/lazy-map-generator.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --reporter spec"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expect.js": "*",
+    "mocha": "*",
+    "naturals": "^1.0.0"
+  }
+}
