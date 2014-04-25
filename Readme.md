@@ -52,11 +52,9 @@ for (let str of strFib()) {
 
 ## API
 
-### take(GeneratorFunction, count)
+### map(GeneratorFunction, Function)
 
-* `count`: number of yielded values to yield
-
-returns: `GeneratorFunction`
+returns: GeneratorFunction
 
 ## License
 
