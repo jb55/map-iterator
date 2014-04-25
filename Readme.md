@@ -5,6 +5,8 @@
   mapping over generator functions only. Allows you to lazily compose
   generators.
 
+  [Other useful functions](https://github.com/jb55/lazy-generator)
+
   [![Build Status](https://travis-ci.org/jb55/lazy-map-generator.png)](https://travis-ci.org/jb55/lazy-map-generator)
 
 ## Installation
