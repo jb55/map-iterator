@@ -1,15 +1,14 @@
 {
-  "name": "lazy-map-generator",
-  "description": "lazily map over generators",
+  "name": "map-generator",
+  "description": "map over generators",
   "keywords": [
-    "lazy",
     "map",
     "generator"
   ],
-  "version": "0.0.1",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jb55/lazy-map-generator.git"
+    "url": "git://github.com/jb55/map-generator.git"
   },
   "main": "index.js",
   "scripts": {
