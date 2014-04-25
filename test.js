@@ -4,7 +4,7 @@ let nats = require('naturals');
 let expect = require('expect.js');
 let map = require('./');
 
-describe('lazy-map-generator', function(){
+describe('map-generator', function(){
   it('works on multive invocations', function(){
     let negs = map(nats, function(x) { return -x; })
     let run = negs();

@@ -1,26 +1,26 @@
 
-# lazy-map-generator
+# map-generator
 
   Like [map-generator](https://github.com/jb55/map-generator), but for
   mapping over generator functions only. Allows you to lazily compose
   generators.
 
-  [Other useful functions](https://github.com/jb55/lazy-generator)
+  [Other useful functions](https://github.com/jb55/generator)
 
-  [![Build Status](https://travis-ci.org/jb55/lazy-map-generator.png)](https://travis-ci.org/jb55/lazy-map-generator)
+  [![Build Status](https://travis-ci.org/jb55/map-generator.png)](https://travis-ci.org/jb55/map-generator)
 
 ## Installation
 
   Install with npm
 
-    $ npm install lazy-map-generator
+    $ npm install map-generator
 
 ## Example
 
 ```js
 'use strict';
 
-let map = require('lazy-map-generator')
+let map = require('map-generator')
 
 function* fibonacci(){
   let fn1 = 1;
