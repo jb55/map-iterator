@@ -50,6 +50,13 @@ for (let str of strFib()) {
 
 ```
 
+## API
+
+### take(GeneratorFunction, count)
+
+* `count`: number of yielded values to yield
+
+returns: `GeneratorFunction`
 
 ## License
 
