@@ -35,7 +35,7 @@ let strFib = map(fibonacci, function(n){
   return "Fib number: " + n; 
 })
 
-for (let str of strFib()) {
+for (let str of strFib) {
   console.log(str);
   if (str === "Fib number: 5") break;
 }
@@ -50,9 +50,9 @@ for (let str of strFib()) {
 
 ## API
 
-### map(GeneratorFunction, Function)
+### map(Generator or GeneratorFunction, Function)
 
-returns: GeneratorFunction
+returns: Generator
 
 ## License
 

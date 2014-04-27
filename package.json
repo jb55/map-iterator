@@ -14,7 +14,9 @@
   "scripts": {
     "test": "mocha --harmony --reporter spec"
   },
-  "dependencies": {},
+  "dependencies": {
+    "is-generator": "0.0.3"
+  },
   "devDependencies": {
     "expect.js": "*",
     "mocha": "*",

@@ -1,9 +1,10 @@
 'use strict'
 
-module.exports = function(genFn, fn) {
-  return function*() {
-    for (let x of genFn()) {
-      yield fn(x);
-    }
+var isGen = require('is-generator');
+
+module.exports = function*(gen, fn) {
+  gen = isGen.fn(gen)? gen() : gen;
+  for (let x of gen) {
+    yield fn(x);
   }
 }
