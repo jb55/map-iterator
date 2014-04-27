@@ -1,24 +1,24 @@
 
-# map-generator
+# map-iterator
 
-  Transform yielded generator values by applying a function to each one.
+  Transform iterator values by applying a function to each one.
 
   [Other useful functions](https://github.com/jb55/generators)
 
-  [![Build Status](https://travis-ci.org/jb55/map-generator.png)](https://travis-ci.org/jb55/map-generator)
+  [![Build Status](https://travis-ci.org/jb55/map-iterator.png)](https://travis-ci.org/jb55/map-iterator)
 
 ## Installation
 
   Install with npm
 
-    $ npm install map-generator
+    $ npm install map-iterator
 
 ## Example
 
 ```js
 'use strict';
 
-let map = require('map-generator')
+let map = require('map-iterator')
 
 function* fibonacci(){
   let fn1 = 1;
@@ -31,8 +31,8 @@ function* fibonacci(){
   }
 }
 
-let strFib = map(fibonacci, function(n){ 
-  return "Fib number: " + n; 
+let strFib = map(fibonacci(), function(n){
+  return "Fib number: " + n;
 })
 
 for (let str of strFib) {
@@ -50,9 +50,9 @@ for (let str of strFib) {
 
 ## API
 
-### map(Generator or GeneratorFunction, Function)
+### map([Iterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/The_Iterator_protocol), Function)
 
-returns: Generator
+returns: [Iterator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/The_Iterator_protocol)
 
 ## License
 

@@ -4,20 +4,25 @@ let nats = require('naturals');
 let expect = require('expect.js');
 let map = require('./');
 
-describe('map-generator', function(){
-  it('works on multive invocations', function(){
-    let negs = function() { return map(nats, function(x) { return -x; }) }
-    let run = negs();
+describe('map-iterator', function(){
+  it('generator function doesnt work', function(){
+    expect(function(){
+      let run = map(nats, function(x) { return -x; });
 
-    expect(run.next().value).to.be(0);
-    expect(run.next().value).to.be(-1);
-    expect(run.next().value).to.be(-2);
+      expect(run.next().value).to.be(0);
+      expect(run.next().value).to.be(-1);
+      expect(run.next().value).to.be(-2);
+    }).to.throwException(function(e){
+      expect(e).to.be.a(TypeError);
+    });
+  });
 
-    run = negs();
+  it('iterator works', function(){
+      let run = map(nats(), function(x) { return -x; });
 
-    expect(run.next().value).to.be(0);
-    expect(run.next().value).to.be(-1);
-    expect(run.next().value).to.be(-2);
+      expect(run.next().value).to.be(0);
+      expect(run.next().value).to.be(-1);
+      expect(run.next().value).to.be(-2);
   });
 
 });

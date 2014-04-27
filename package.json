@@ -1,21 +1,19 @@
 {
-  "name": "map-generator",
-  "description": "map over generators",
+  "name": "map-iterator",
+  "description": "map over iterators",
   "keywords": [
     "map",
+    "iterator",
     "generator"
   ],
-  "version": "3.0.0",
+  "version": "1.0.0",
   "repository": {
     "type": "git",
-    "url": "git://github.com/jb55/map-generator.git"
+    "url": "git://github.com/jb55/map-iterator.git"
   },
   "main": "index.js",
   "scripts": {
     "test": "mocha --harmony --reporter spec"
-  },
-  "dependencies": {
-    "is-generator": "0.0.3"
   },
   "devDependencies": {
     "expect.js": "*",
