@@ -5,7 +5,7 @@
 
   [Other useful functions](https://github.com/jb55/generators)
 
-  [![Build Status](https://travis-ci.org/jb55/map-iterator.png)](https://travis-ci.org/jb55/map-iterator)
+  [![Build Status](https://travis-ci.org/jb55/map-iterator.svg)](https://travis-ci.org/jb55/map-iterator)
 
 ## Installation
 
